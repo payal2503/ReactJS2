@@ -8,19 +8,11 @@ class Main extends Component {
 
   constructor(props) {
     super(props);
-    console.log("main component constructor");
+    
     this.state = {
         dishes: DISHES,
         selectedDish: null
     };
-  }
-
-  componentDidMount(){
-    console.log("Main component componentDidMount invoked");
-  }
-
-  componentDidUpdate(){
-    console.log("Main component componentDidUpdate invoked");
   }
 
   onDishSelect(dishId) {
@@ -28,7 +20,7 @@ class Main extends Component {
   }
 
   render() {
-    console.log("Main Component render invoked");
+  
     return (
       <div>
         <Navbar dark color="primary">
@@ -37,7 +29,7 @@ class Main extends Component {
           </div>
         </Navbar>
         <Menu dishes={this.state.dishes} onClick={(dishId) => this.onDishSelect(dishId)} />
-        <DishDetail selectedDish ={this.state.dishes.filter((dish) => dish.id === this.state.selectedDish )[0]} />
+        <DishDetail dish ={this.state.dishes.filter((dish) => dish.id === this.state.selectedDish)[0]} />
       </div>
     );
   }
