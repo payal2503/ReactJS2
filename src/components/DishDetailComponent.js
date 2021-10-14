@@ -3,20 +3,18 @@ import { Card, CardImg, CardBody, CardText, CardTitle } from 'reactstrap';
 
 class DishDetail extends Component {
 
-    // eslint-disable-next-line no-useless-constructor
     constructor(props) {
         super(props);
-        //console.log("DD component constructor invoked");
+        console.log("DD component constructor invoked");
      }
 
-    // componentDidMount(){
-    //     console.log("dishdetail component componentDidMount invoked");
-    // }
+    componentDidMount(){
+        console.log("dishdetail component componentDidMount invoked");
+    }
     
-    // componentDidUpdate(){
-    //     console.log("dishdetail component componentDidUpdate invoked");
-    // }
-
+    componentDidUpdate(){
+        console.log("dishdetail component componentDidUpdate invoked");
+    }
     renderDish(dish) {
         if (dish != null) {
             return (
@@ -55,7 +53,7 @@ class DishDetail extends Component {
         }
     }
     render() {
-        // console.log("dishdetail componenet render invoked");
+        console.log("dishdetail componenet render invoked");
         if (this.props.selectedDish != null) {
             
             // const dish=this.props.selectedDish

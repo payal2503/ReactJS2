@@ -8,27 +8,27 @@ class Main extends Component {
 
   constructor(props) {
     super(props);
-    // console.log("main component constructor");
+    console.log("main component constructor");
     this.state = {
         dishes: DISHES,
         selectedDish: null
     };
   }
 
-  // componentDidMount(){
-  //   console.log("Main component componentDidMount invoked");
-  // }
+  componentDidMount(){
+    console.log("Main component componentDidMount invoked");
+  }
 
-  // componentDidUpdate(){
-  //   console.log("Main component componentDidUpdate invoked");
-  // }
+  componentDidUpdate(){
+    console.log("Main component componentDidUpdate invoked");
+  }
 
   onDishSelect(dishId) {
     this.setState({ selectedDish: dishId});
   }
 
   render() {
-    // console.log("Main Component render invoked");
+    console.log("Main Component render invoked");
     return (
       <div>
         <Navbar dark color="primary">
