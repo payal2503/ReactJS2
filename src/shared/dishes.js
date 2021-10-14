@@ -12,7 +12,7 @@ export const DISHES =
             {
             id: 0,
             rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!0000000000",
+            comment: "Imagine 1 all the eatables, living in conFusion!0000000000",
             author: "John Lemon",
             date: "2012-10-16T17:57:28.556094Z"
             },
@@ -49,7 +49,7 @@ export const DISHES =
         id: 1,
         name:'Zucchipakoda',
         image: 'assets/images/zucchipakoda.png',
-        category: 'appetizer',
+        category: 'appetizer 1',
         label:'',
         price:'1.99',
         description:'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce',
@@ -57,7 +57,7 @@ export const DISHES =
             {
             id: 0,
             rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
+            comment: "Imagine 2 all the eatables, living in conFusion!",
             author: "John Lemon",
             date: "2012-10-16T17:57:28.556094Z"
             },
@@ -103,7 +103,7 @@ export const DISHES =
             {
             id: 0,
             rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
+            comment: "Imagine 3 all the eatables, living in conFusion!",
             author: "John Lemon",
             date: "2012-10-16T17:57:28.556094Z"
             },
@@ -149,7 +149,7 @@ export const DISHES =
             {
             id: 0,
             rating: 5,
-            comment: "Imagine all the eatables, living in conFusion!",
+            comment: "Imagine 4 all the eatables, living in conFusion!",
             author: "John Lemon",
             date: "2012-10-16T17:57:28.556094Z"
             },
