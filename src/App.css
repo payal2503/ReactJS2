@@ -72,3 +72,13 @@ address{
 .navbar-dark {
   background-color: #512DA8;
 }
+.float-right {
+  text-align: right;
+  border: 100;
+  background: rgb(36, 10, 189);
+  border-radius: 8px;
+  color: white;
+
+}
+
+
