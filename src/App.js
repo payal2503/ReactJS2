@@ -5,12 +5,9 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { ConfigureStore } from './Redux/configureStore';
 
-
-
 const store = ConfigureStore();
 
 class App extends Component {
-
   
   render(){
     return (
@@ -20,8 +17,7 @@ class App extends Component {
         <Main />
         </div>
       </BrowserRouter>
-      </Provider>
-      
+      </Provider>     
     );
   }
 }
