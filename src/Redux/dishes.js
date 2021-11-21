@@ -2,7 +2,7 @@ import * as ActionTypes from './ActionTypes';
 
 export const Dishes = (state = {
     isLoading : true ,
-    errmess : null,
+    errMess : null,
     dishes : []
 } , action) => {
 
